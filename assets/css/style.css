@@ -214,6 +214,7 @@ button:hover {
 @media only screen and (max-width: 640px) {
     header {
         width: 590px;
+        height: 75px;
         background-color: #4682b4;
         color: #ffffff;
         padding: 0;
@@ -264,10 +265,10 @@ button:hover {
     /* portfolio - gallery content */
     .photos {
         padding: 20px;
-        width: 50%;
-        height: 200px;
+        width: 80%;
+        height: 300px;
     }
     .text-block {
-        width: 300px;
+        width: 400px;
     }
 }
