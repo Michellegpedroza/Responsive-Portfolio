@@ -210,3 +210,64 @@ button:hover {
         height: 270px;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    header {
+        width: 590px;
+        background-color: #4682b4;
+        color: #ffffff;
+        padding: 0;
+        text-align: center;
+    }
+    #navDiv {
+        width: 550px;
+        padding: 10PX;
+        margin: auto;
+    }
+    #name {
+        width: 550px;
+        display: block;
+        background-color: #4682b4;
+        padding: 0;
+        color: #ffffff;
+        border: none;
+    }
+    .navLinks {
+        width: 550px;
+        float: none;
+        padding: 10px;
+        background-color: white;
+    }
+    a {
+        background-color: white;
+        color: #808080;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .container {
+        width: 500px;
+        height: auto;
+        margin: auto;
+        background-color: #ffffff;
+        border: 2px solid #c0c0c0;
+    }
+    /* about me content */
+    #profilePic {
+        display: block;
+        width: 93%;
+        height: 500px;
+        padding: 20px;
+    }
+    hr {
+        width: 470px;
+    }
+    /* portfolio - gallery content */
+    .photos {
+        padding: 20px;
+        width: 50%;
+        height: 200px;
+    }
+    .text-block {
+        width: 300px;
+    }
+}
