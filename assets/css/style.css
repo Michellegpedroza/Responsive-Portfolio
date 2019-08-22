@@ -48,7 +48,7 @@ body {
 /* body content styling for all pages*/
 
 .h1 {
-    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #4682b4;
     padding-left: 20px;
 }
@@ -84,49 +84,47 @@ p {
 
 /* portfolio - gallery content */
 
-.photos{
+.photos {
     padding: 20px;
     width: 200px;
     height: 200px;
 }
 
-.gallery{
+.gallery {
     position: relative;
     display: inline;
 }
 
-.text-block{
+.text-block {
     position: absolute;
     width: 200px;
     bottom: 35px;
-    left:20px;
+    left: 20px;
     background-color: #4682b4;
     color: #ffffff;
     text-align: center;
 }
 
-
-
 /* contact content */
 
-form{
-    padding:20px;
+form {
+    padding: 20px;
 }
 
-.formInputs{
+.formInputs {
     padding-bottom: 20px;
 }
 
-label{
+label {
     display: block;
     margin-bottom: 10px;
 }
 
-input{
+input {
     height: 25px;
 }
 
-.textBox{
+.textBox {
     width: 100%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -135,7 +133,7 @@ input{
     -o-border-radius: 5px;
 }
 
-button{
+button {
     height: 35px;
     width: 90px;
     background-color: #808080;
@@ -146,17 +144,17 @@ button{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
- button:hover{
-    box-shadow: 0 10px 10px #74777a, 0 10px 10px #92a9bd;
- }
 
+button:hover {
+    box-shadow: 0 10px 10px #74777a, 0 10px 10px #92a9bd;
+}
 
 /* footer for all pages */
 
 #footer {
     position: fixed;
-    left:0;
-    bottom:0;
+    left: 0;
+    bottom: 0;
     height: 75px;
     width: 100%;
     background-color: #808080;
@@ -169,4 +167,46 @@ button{
 #copyright {
     padding-top: 35px;
     font-size: 13px;
+}
+
+/* Media Queries for Responsiveness */
+
+@media only screen and (max-width: 980px) {
+    #navDiv {
+        width: 900px;
+    }
+    hr {
+        width: 760px;
+    }
+    .container {
+        width: 800px;
+    }
+    /* about me content */
+    #profilePic {
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #navDiv {
+        width: 600px;
+    }
+    #name {
+        font-size: 25px;
+    }
+    .navLinks {
+        font-size: 15px;
+    }
+    hr {
+        width: 560px;
+    }
+    .container {
+        width: 600px;
+    }
+    /* about me content */
+    #profilePic {
+        width: 200px;
+        height: 270px;
+    }
 }
