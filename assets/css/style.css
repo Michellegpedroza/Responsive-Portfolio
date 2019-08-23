@@ -58,6 +58,7 @@ hr {
 }
 
 .container {
+    padding-bottom: 20px;
     width: 960px;
     height: auto;
     margin: auto;
@@ -158,7 +159,7 @@ button:hover {
     height: 75px;
     width: 100%;
     background-color: #808080;
-    color: #fff;
+    color: #ffffff;
     border-top: 10px solid #4682b4;
     margin-top: 100px;
     text-align: center;
@@ -203,6 +204,7 @@ button:hover {
     }
     .container {
         width: 600px;
+        padding-bottom: 20px;
     }
     /* about me content */
     #profilePic {
@@ -213,20 +215,21 @@ button:hover {
 
 @media only screen and (max-width: 640px) {
     header {
-        width: 590px;
+        width: 640px;
         height: 75px;
-        background-color: #4682b4;
         color: #ffffff;
         padding: 0;
+        margin-bottom: 20px;
         text-align: center;
     }
     #navDiv {
-        width: 550px;
-        padding: 10PX;
+        background-color: #4682b4;
+        width: 640px;
+        padding: 10px;
         margin: auto;
+        text-align: center;
     }
     #name {
-        width: 550px;
         display: block;
         background-color: #4682b4;
         padding: 0;
@@ -234,14 +237,11 @@ button:hover {
         border: none;
     }
     .navLinks {
-        width: 550px;
+        width: 640px;
         float: none;
         padding: 10px;
-        background-color: white;
     }
     a {
-        background-color: white;
-        color: #808080;
         font-size: 20px;
         text-decoration: none;
     }
